@@ -11,7 +11,7 @@ import SwiftUI
 struct RickAndMorty_test_jobApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RMRootView()
         }
     }
 }

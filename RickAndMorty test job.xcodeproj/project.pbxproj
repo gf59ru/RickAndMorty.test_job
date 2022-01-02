@@ -8,17 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		BA20AAF7277F2AB900D417B3 /* RickAndMorty_test_jobApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20AAF6277F2AB900D417B3 /* RickAndMorty_test_jobApp.swift */; };
-		BA20AAF9277F2AB900D417B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20AAF8277F2AB900D417B3 /* ContentView.swift */; };
+		BA20AAF9277F2AB900D417B3 /* RMRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20AAF8277F2AB900D417B3 /* RMRootView.swift */; };
 		BA20AAFB277F2ABB00D417B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA20AAFA277F2ABB00D417B3 /* Assets.xcassets */; };
 		BA20AAFE277F2ABB00D417B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA20AAFD277F2ABB00D417B3 /* Preview Assets.xcassets */; };
+		BA20AB05277F2B0100D417B3 /* RMRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20AB04277F2B0100D417B3 /* RMRequestManager.swift */; };
+		BA20AB07277F30EC00D417B3 /* RMCharactersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20AB06277F30EC00D417B3 /* RMCharactersResponse.swift */; };
+		BA20AB0B277F312C00D417B3 /* RMCharactersInfoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20AB0A277F312C00D417B3 /* RMCharactersInfoResponse.swift */; };
+		BA20AB0D277F314400D417B3 /* RMCharacterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20AB0C277F314400D417B3 /* RMCharacterResponse.swift */; };
+		BA20AB0F277F31B200D417B3 /* RMCharacterLocationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20AB0E277F31B200D417B3 /* RMCharacterLocationResponse.swift */; };
+		BA20AB14277F326700D417B3 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20AB13277F326700D417B3 /* Enums.swift */; };
+		BA20AB1A277F395400D417B3 /* RMDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20AB19277F395400D417B3 /* RMDetailView.swift */; };
+		BA20AB1C277F397800D417B3 /* RMViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20AB1B277F397800D417B3 /* RMViewModel.swift */; };
+		BA20AB1F277F3F1600D417B3 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20AB1E277F3F1600D417B3 /* DateFormatter.swift */; };
+		BA20AB21277F421200D417B3 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20AB20277F421200D417B3 /* Errors.swift */; };
+		BA20AB23277F686500D417B3 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20AB22277F686500D417B3 /* View.swift */; };
+		BA20AB26277F78AA00D417B3 /* RMDetailEnumItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20AB25277F78AA00D417B3 /* RMDetailEnumItemView.swift */; };
+		BA20AB28277F7F4800D417B3 /* RMValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20AB27277F7F4800D417B3 /* RMValueView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BA20AAF3277F2AB900D417B3 /* RickAndMorty test job.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RickAndMorty test job.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA20AAF6277F2AB900D417B3 /* RickAndMorty_test_jobApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMorty_test_jobApp.swift; sourceTree = "<group>"; };
-		BA20AAF8277F2AB900D417B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BA20AAF8277F2AB900D417B3 /* RMRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMRootView.swift; sourceTree = "<group>"; };
 		BA20AAFA277F2ABB00D417B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA20AAFD277F2ABB00D417B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA20AB04277F2B0100D417B3 /* RMRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMRequestManager.swift; sourceTree = "<group>"; };
+		BA20AB06277F30EC00D417B3 /* RMCharactersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharactersResponse.swift; sourceTree = "<group>"; };
+		BA20AB0A277F312C00D417B3 /* RMCharactersInfoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharactersInfoResponse.swift; sourceTree = "<group>"; };
+		BA20AB0C277F314400D417B3 /* RMCharacterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterResponse.swift; sourceTree = "<group>"; };
+		BA20AB0E277F31B200D417B3 /* RMCharacterLocationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterLocationResponse.swift; sourceTree = "<group>"; };
+		BA20AB13277F326700D417B3 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		BA20AB19277F395400D417B3 /* RMDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMDetailView.swift; sourceTree = "<group>"; };
+		BA20AB1B277F397800D417B3 /* RMViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMViewModel.swift; sourceTree = "<group>"; };
+		BA20AB1E277F3F1600D417B3 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
+		BA20AB20277F421200D417B3 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		BA20AB22277F686500D417B3 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		BA20AB25277F78AA00D417B3 /* RMDetailEnumItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMDetailEnumItemView.swift; sourceTree = "<group>"; };
+		BA20AB27277F7F4800D417B3 /* RMValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMValueView.swift; sourceTree = "<group>"; };
+		BA20AB2B2781E7A200D417B3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +62,7 @@
 		BA20AAEA277F2AB900D417B3 = {
 			isa = PBXGroup;
 			children = (
+				BA20AB2B2781E7A200D417B3 /* README.md */,
 				BA20AAF5277F2AB900D417B3 /* RickAndMorty test job */,
 				BA20AAF4277F2AB900D417B3 /* Products */,
 			);
@@ -51,8 +79,10 @@
 		BA20AAF5277F2AB900D417B3 /* RickAndMorty test job */ = {
 			isa = PBXGroup;
 			children = (
+				BA20AB17277F33FD00D417B3 /* ViewModel */,
+				BA20AB16277F33DA00D417B3 /* View */,
+				BA20AB08277F310C00D417B3 /* Model */,
 				BA20AAF6277F2AB900D417B3 /* RickAndMorty_test_jobApp.swift */,
-				BA20AAF8277F2AB900D417B3 /* ContentView.swift */,
 				BA20AAFA277F2ABB00D417B3 /* Assets.xcassets */,
 				BA20AAFC277F2ABB00D417B3 /* Preview Content */,
 			);
@@ -65,6 +95,89 @@
 				BA20AAFD277F2ABB00D417B3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA20AB08277F310C00D417B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA20AB1D277F3EFA00D417B3 /* Formatters */,
+				BA20AB18277F374800D417B3 /* Errors */,
+				BA20AB12277F324800D417B3 /* Enums */,
+				BA20AB09277F311600D417B3 /* Responses */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA20AB09277F311600D417B3 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				BA20AB06277F30EC00D417B3 /* RMCharactersResponse.swift */,
+				BA20AB0A277F312C00D417B3 /* RMCharactersInfoResponse.swift */,
+				BA20AB0C277F314400D417B3 /* RMCharacterResponse.swift */,
+				BA20AB0E277F31B200D417B3 /* RMCharacterLocationResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		BA20AB12277F324800D417B3 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				BA20AB13277F326700D417B3 /* Enums.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		BA20AB16277F33DA00D417B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA20AB2A2780E37700D417B3 /* Extensions */,
+				BA20AB292780E35A00D417B3 /* Protocols */,
+				BA20AAF8277F2AB900D417B3 /* RMRootView.swift */,
+				BA20AB19277F395400D417B3 /* RMDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA20AB17277F33FD00D417B3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BA20AB04277F2B0100D417B3 /* RMRequestManager.swift */,
+				BA20AB1B277F397800D417B3 /* RMViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BA20AB18277F374800D417B3 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				BA20AB20277F421200D417B3 /* Errors.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		BA20AB1D277F3EFA00D417B3 /* Formatters */ = {
+			isa = PBXGroup;
+			children = (
+				BA20AB1E277F3F1600D417B3 /* DateFormatter.swift */,
+			);
+			path = Formatters;
+			sourceTree = "<group>";
+		};
+		BA20AB292780E35A00D417B3 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BA20AB27277F7F4800D417B3 /* RMValueView.swift */,
+				BA20AB25277F78AA00D417B3 /* RMDetailEnumItemView.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		BA20AB2A2780E37700D417B3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BA20AB22277F686500D417B3 /* View.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,6 +207,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = RM;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
@@ -137,8 +251,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA20AAF9277F2AB900D417B3 /* ContentView.swift in Sources */,
+				BA20AB23277F686500D417B3 /* View.swift in Sources */,
+				BA20AB05277F2B0100D417B3 /* RMRequestManager.swift in Sources */,
+				BA20AAF9277F2AB900D417B3 /* RMRootView.swift in Sources */,
+				BA20AB0D277F314400D417B3 /* RMCharacterResponse.swift in Sources */,
+				BA20AB07277F30EC00D417B3 /* RMCharactersResponse.swift in Sources */,
+				BA20AB26277F78AA00D417B3 /* RMDetailEnumItemView.swift in Sources */,
 				BA20AAF7277F2AB900D417B3 /* RickAndMorty_test_jobApp.swift in Sources */,
+				BA20AB0B277F312C00D417B3 /* RMCharactersInfoResponse.swift in Sources */,
+				BA20AB21277F421200D417B3 /* Errors.swift in Sources */,
+				BA20AB1F277F3F1600D417B3 /* DateFormatter.swift in Sources */,
+				BA20AB14277F326700D417B3 /* Enums.swift in Sources */,
+				BA20AB1C277F397800D417B3 /* RMViewModel.swift in Sources */,
+				BA20AB1A277F395400D417B3 /* RMDetailView.swift in Sources */,
+				BA20AB0F277F31B200D417B3 /* RMCharacterLocationResponse.swift in Sources */,
+				BA20AB28277F7F4800D417B3 /* RMValueView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +404,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,6 +434,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
